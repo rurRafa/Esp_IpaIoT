@@ -10,20 +10,39 @@
 
   <div class="box">
     <h2>Login</h2>
-    <form action="config.php">
+    <form action="form.php">
+
       <div class="input-box">
         <input type="text" name="username"  autocomplete="off" required>
-        <label for="">Username</label>
+        <label for="">Meno</label>
       </div>
+
       <div class="input-box">
         <input type="email" name="email"  autocomplete="off" required>
-        <label for="">Email</label>
+        <label for="">Priezvisko</label>
       </div>
+
+      <div class="input-box">
+        <input type="password" name="password"  autocomplete="off" required>
+        <label for="">Tel. číslo</label>
+      </div>
+
+      <div class="input-box">
+        <input type="password" name="password"  autocomplete="off" required>
+        <label for="">E-mail</label>
+      </div>
+
       <div class="input-box">
         <input type="password" name="password"  autocomplete="off" required>
         <label for="">Password</label>
       </div>
-        <input type="submit" value="Save">
+
+      <div class="input-box">
+        <input type="password" name="password"  autocomplete="off" required>
+        <label for="">Re-Password</label>
+      </div>
+
+        <input type="submit" value="Submit Form">
     </form>
   </div>
   
