@@ -5,8 +5,9 @@ body{
     background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .box{
+}
+
+.box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,17 +18,20 @@ body{
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-  }
-  .box h2{
+}
+
+.box h2{
     margin: 0 0 30px;
     padding: 0px;
     color: #fff;
     text-align: left;
-  }
-  .box .input-box{
+}
+
+.box .input-box{
     position: relative;
-  }
-  .box .input-box input{
+}
+
+.box .input-box input{
     width: 100%;
     padding: 10px 0px;
     font-size: 16px;
@@ -38,8 +42,9 @@ body{
     outline: none;
     background: transparent;
     border-bottom: 1px solid #fff;
-  }
-  .box .input-box label{
+}
+
+.box .input-box label{
     position: absolute;
     top: 0;
     left: 0;
@@ -48,15 +53,17 @@ body{
     font-size: 16px;
     color: #fff;
     transition: .5s;
-  }
-  .box .input-box input:focus ~ label,
-  .box .input-box input:valid ~ label{
+}
+
+.box .input-box input:focus ~ label,
+.box .input-box input:valid ~ label{
     top: -18px;
     left: 0px;
     color: #03a9f4;
     font-size: 12px;
-  }
-  .box input[type="submit"]{
+}
+
+.box input[type="submit"]{
     background: transparent;
     border: none;
     outline: none;
@@ -65,7 +72,8 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
     cursor:pointer;
-  }
-  .box input[type="submit"]:hover{
-    background-color: #3067b9;
-  }
+}
+
+.box input[type="submit"]:hover{
+background-color: #3067b9;
+}

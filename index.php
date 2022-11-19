@@ -20,17 +20,17 @@
       </div>
 
       <div class="input-box">
-        <input type="email" name="surname"  autocomplete="off" required>
+        <input type="text" name="surname"  autocomplete="off" required>
         <label for="">Priezvisko</label>
       </div>
 
       <div class="input-box">
-        <input type="password" name="number"  autocomplete="off" required>
+        <input type="number" name="number"  autocomplete="off" required>
         <label for="">Tel. číslo</label>
       </div>
 
       <div class="input-box">
-        <input type="password" name="email"  autocomplete="off" required>
+        <input type="email" name="email"  autocomplete="off" required>
         <label for="">E-mail</label>
       </div>
 
