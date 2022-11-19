@@ -13,22 +13,22 @@
     <form action="form.php">
 
       <div class="input-box">
-        <input type="text" name="username"  autocomplete="off" required>
+        <input type="text" name="name"  autocomplete="off" required>
         <label for="">Meno</label>
       </div>
 
       <div class="input-box">
-        <input type="email" name="email"  autocomplete="off" required>
+        <input type="email" name="surname"  autocomplete="off" required>
         <label for="">Priezvisko</label>
       </div>
 
       <div class="input-box">
-        <input type="password" name="password"  autocomplete="off" required>
+        <input type="password" name="telcislo"  autocomplete="off" required>
         <label for="">Tel. číslo</label>
       </div>
 
       <div class="input-box">
-        <input type="password" name="password"  autocomplete="off" required>
+        <input type="password" name="email"  autocomplete="off" required>
         <label for="">E-mail</label>
       </div>
 
@@ -38,7 +38,7 @@
       </div>
 
       <div class="input-box">
-        <input type="password" name="password"  autocomplete="off" required>
+        <input type="password" name="repassword"  autocomplete="off" required>
         <label for="">Re-Password</label>
       </div>
 
