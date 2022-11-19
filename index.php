@@ -1,1 +1,1 @@
-<?php echo '<p>First web on Aasdadasdzure</p>'; ?>
+<?php echo '<p>First web on Azure</p>'; ?>
