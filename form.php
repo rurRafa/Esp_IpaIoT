@@ -21,5 +21,5 @@
     fwrite($file, $repassword ."\n");
 
     fclose($file);
-    header("location: index.php");
+    header("location: index.php?form=sent");
  ?>
