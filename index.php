@@ -9,7 +9,9 @@
 <body>
 
   <div class="box">
+    
     <h2>Login</h2>
+
     <form action="form.php">
 
       <div class="input-box">
@@ -23,7 +25,7 @@
       </div>
 
       <div class="input-box">
-        <input type="password" name="telcislo"  autocomplete="off" required>
+        <input type="password" name="number"  autocomplete="off" required>
         <label for="">Tel. číslo</label>
       </div>
 
