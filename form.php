@@ -1,25 +1,10 @@
 <?php
-    extract($_REQUEST);
-    $file=fopen("saveform.txt","a");
-
-    fwrite($file,"name: ");
-    fwrite($file, $name ."\n");
-
-    fwrite($file,"surname: ");
-    fwrite($file, $surname ."\n");
-
-    fwrite($file,"number: ");
-    fwrite($file, $number ."\n");
-
-    fwrite($file,"email: ");
-    fwrite($file, $email ."\n");
-
-    fwrite($file,"password: ");
-    fwrite($file, $password ."\n");
-
-    fwrite($file,"repassword: ");
-    fwrite($file, $repassword ."\n");
-
-    fclose($file);
-    header("location: index.php?form=sent");
+      $sn1 = $_GET["a"];
+      $sn2 = $_GET["b"];
+      
+      $file1 = fopen("sensors.txt","a") or die("Unable to open file!");
+      $text1 = "a=" . $sn1 . " b=" . $sn2;
+      
+      fwrite($file1, $text1);
+      fclose($file1);
  ?>
