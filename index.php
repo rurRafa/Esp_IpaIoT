@@ -36,12 +36,12 @@
 
       <div class="input-box">
         <input type="password" name="password"  autocomplete="off" required>
-        <label for="">Password</label>
+        <label for="">Heslo</label>
       </div>
 
       <div class="input-box">
         <input type="password" name="repassword"  autocomplete="off" required>
-        <label for="">Re-Password</label>
+        <label for="">Heslo znova</label>
       </div>
 
         <input type="submit" value="Submit Form">
