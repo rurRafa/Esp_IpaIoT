@@ -1,10 +1,25 @@
 <?php
-      $sn1 = $_GET["name"];
-      
-      $file1 = fopen("saveform.txt","w") or die("Unable to open file!");
-      $text1 = "name=" . $sn1    
-      fwrite($file1, $text1);
-      fclose($file1);
+    extract($_REQUEST);
+    $file=fopen("saveform.txt","a");
 
-      header("location: index.php?form=sent");
+    fwrite($file,"name: ");
+    fwrite($file, $name ."\n");
+
+    fwrite($file,"surname: ");
+    fwrite($file, $surname ."\n");
+
+    fwrite($file,"number: ");
+    fwrite($file, $number ."\n");
+
+    fwrite($file,"email: ");
+    fwrite($file, $email ."\n");
+
+    fwrite($file,"password: ");
+    fwrite($file, $password ."\n");
+
+    fwrite($file,"repassword: ");
+    fwrite($file, $repassword ."\n");
+
+    fclose($file);
+    header("location: index.php?form=sent");
  ?>
